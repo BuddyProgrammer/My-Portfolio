@@ -1,0 +1,48 @@
+.social-links{
+    display: flex;
+    
+    margin-top: 20px;
+    margin-left: 20%;
+    align-items: center;
+    gap: 30%;
+}
+.profile{
+    font-size: 20px;
+}
+.image{
+    width: 250px;
+    height:250px;
+    border-radius: 85px;
+}
+button{
+    height: 50px;
+    width: 30%;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: 0.1s ease;
+}
+body{
+    background-color: rgb(36, 29, 29);
+    font-size: larger;
+    color: white;
+}
+.navigation{
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+    font-size: larger;
+    padding: 20px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
