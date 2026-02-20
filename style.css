@@ -12,7 +12,7 @@
 .image{
     width: 300px;
     height:350px;
-    border-radius: 450px;
+    border-radius: 50%;
     margin-left: 12%;
     margin-top: 20px;
     margin-right: 20%;
@@ -139,4 +139,30 @@ body{
 }
 .setter:hover{
     background-color: purple;
+}
+.setting{
+    width: 220px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(173, 106, 237);
+    color: black;
+    font-size: large;
+    transition: 0.1s;
+}
+.setting:hover{
+    background-color: purple;
+}
+
+.brands .icons #state{
+    display: inline-flex;
+    padding: 30px;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    margin: 0 8px;
+    transition: 0.1s ease;
+}
+.brands .icons li{
+    padding: 30px;
 }
