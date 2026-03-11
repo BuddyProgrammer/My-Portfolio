@@ -26,9 +26,9 @@
     <div class="social-links">
         
         <div class="profile">
-            <big><b>Hi I'M <span style="color: blueviolet; font-family: sans-serif;">KURRA NAGASAI</span></b></big><br><br>
+            <big><b>Hi I'M <span style="color: blueviolet; font-family: sans-serif; font-size: 40px;">KURRA NAGASAI</span></b></big><br><br>
             <big>A<b><span style="color: blueviolet; font-family: sans-serif;"> JAVA DEVELOPER</span></b></big><br>
-            <p style="font-family: monospace;">Having a good knowledge in problem solving skills.Looking for an opportunity
+            <p style="font-family: monospace;">Having a good knowledge in problem solving.Looking for an opportunity
                 where I can apply my skills and knowledge to contribute to the growth of the organization and enhance my learning experience. </p>
             <div class="btn">
                 <a href="https://github.com/BuddyProgrammer" target="_blank">
@@ -43,59 +43,99 @@
 
                 <a href="#" title="9391298012"><i class="fa-solid fa-address-book"></i></a>
             </div>
-            
         </div>
-        <img src="maname.jpg" class="image">
+        <div class="image-wrapper">
+                <img src="maname.jpg" class="image">
+            </div>
     </div><br><br>
 
 
     <h2 align="center">
-       <button class="setter">Projects</button> 
-    </h2>
-    <div class="projects">
-        <div class="images">
-            
-            <img src="myntra.jpg">
-            <big style="color: blueviolet;">Myntra clone</big><br>
-            <a href="https://github.com/BuddyProgrammer/Myntra-clone" target="_blank"><br>
-                <button>View</button>
-            </a>
-        </div>
-        <div class="images">
-            
-            <img src="text.jpg"><br>
-            <big style="color: blueviolet;">Text-To-Image</big><br><br>
-            <a href="https://github.com/BuddyProgrammer/TEXT--TO-IMAGE-GENERATOR" target="_blank">
-                <button>View</button>
-            </a>
-        </div>
-        <div class="images">
-            
-            <img src="chatbot.jpg"><br>
-            <big style="color: blueviolet;">Customer AI Chatbot</big><br><br>
-            <a href="https://github.com/BuddyProgrammer/AI-chatbot-for-customer-service" target="_blank">
-                <button>View</button>
-            </a>
-        </div>
-    </div> 
+   <button class="setter" onclick="toggleProjects()">Projects</button> 
+</h2>
 
-    <h2 align="center">
-     <button class="setting">Achievements</button>
-    </h2>
-    <div class="projects">
-        <div class="images">
-            <img src="naukri.jpg"><br><br>
-            <big style="color: blueviolet;">Codequest #21 participant</big><br><br><br>
-            <a href="naukri.jpg" target="_blank"><button>View</button></a>
-        </div>
-        <div class="images">
-            <img src="prepinsta.jpg"><br><br>
-            <big style="color: blueviolet;">Internship Offer letter from PrepInsta</big><br><br>
-            <a href="prepinsta.jpg" target="_blank">
-                <button>View</button>
-            </a>
+<div class="timeline" id="projectSection">
+
+    <div class="timeline-item left">
+        <div class="content">
+            <img src="myntra.jpg">
+            <h3>Myntra Clone</h3>
+            <button onclick="window.open('https://github.com/BuddyProgrammer/Myntra-clone')"
+            style="background-color: blueviolet; border-radius: 20px; width: 70px; height: 40px;">
+                View
+            </button>
         </div>
     </div>
+
+    <div class="timeline-item right">
+        <div class="content">
+            <img src="text.jpg">
+            <h3>Text-To-Image</h3>
+            <button onclick="window.open('https://github.com/BuddyProgrammer/TEXT--TO-IMAGE-GENERATOR')" 
+            style="background-color: blueviolet; border-radius: 20px; width: 70px; height: 40px;">
+                View
+            </button>
+        </div>
+    </div>
+
+    <div class="timeline-item left">
+        <div class="content">
+            <img src="chatbot.jpg">
+            <h3>Customer AI Chatbot</h3>
+            <button onclick="window.open('https://github.com/BuddyProgrammer/AI-chatbot-for-customer-service')"
+            style="background-color: blueviolet; border-radius: 20px; width: 70px; height: 40px; align-items: center;">
+                View
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<h2 align="center">
+    <button class="setting">Achievements</button>
+</h2>
+
+<div class="timeline" id="achievementSection">
+    <div class="timeline-item left achievement-item">
+        <div class="content">
+            <img src="naukri.jpg">
+            <h3 style="color: white;">Codequest #21 participant</h3>
+            <a href="naukri.jpg" target="_blank"><button>View</button></a>
+        </div>
+    </div>
+
+    <div class="timeline-item right achievement-item">
+        <div class="content">
+            <img src="prepinsta.jpg">
+            <h3 style="color: white;">Internship Offer letter</h3>
+            <a href="prepinsta.jpg" target="_blank"><button>View</button></a>
+        </div>
+    </div>
+
+    <div class="timeline-item left achievement-item">
+        <div class="content">
+            <img src="AI.jpg">
+            <h3 style="color: white;">AI Workshop</h3>
+            <a href="AI.jpg" target="_blank"><button>View</button></a>
+        </div>
+    </div>
+
+    <div class="timeline-item right achievement-item">
+        <div class="content">
+            <img src="AWS.jpg">
+            <h3 style="color: white;">AWS Workshop</h3>
+            <a href="AWS.jpg" target="_blank"><button>View</button></a>
+        </div>
+    </div>
+
+    <div class="timeline-item left achievement-item">
+        <div class="content">
+            <img src="coding.jpg">
+            <h3 style="color: white;">Participated in coding tech-quiz</h3>
+            <a href="coding.jpg" target="_blank"><button>View</button></a>
+        </div>
+    </div>
+</div>
 
     <h2 align="center">
         <button class="setting" id="skills">Skills</button>
@@ -107,13 +147,16 @@
                     <span style="color: white;">languages:</span>
                     <i class="fa-brands fa-java" id="state"></i>
                     <i class="fa-brands fa-c" id="state"></i>
-                    <i class="fa-brands fa-python" id="state"></i>
                 </li>
                 <li style="color: purple;font-size: 40px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Web 
                     <span style="color: white;">technologies:</span>
                     <i class="fa-brands fa-html5" id="state"></i>
                     <i class="fa-brands fa-css3-alt" id="state"></i>
                     <i class="fa-brands fa-js" id="state"></i>
+                </li>
+                <li style="color: purple; font-size: 40px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Tools:
+                    <i class="fa-brands fa-git-alt" id="state"></i>
+                    <i class="fa-brands fa-github" id="state"></i>
                 </li>
                 <li style="color: purple; font-size: 40px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Data
                     <span style="color: white;">Base:</span>
@@ -125,5 +168,44 @@
         </nav>
     </div>
 
+    <script>
+function toggleProjects() {
+    const timeline = document.getElementById("projectSection");
+    timeline.classList.toggle("active");
+    revealOnScroll(); 
+}
+
+function revealOnScroll() {
+    const triggerBottom = window.innerHeight * 0.8;
+    
+    const timelines = document.querySelectorAll(".timeline");
+    
+    timelines.forEach(timeline => {
+        
+        if (timeline.id === "achievementSection" || timeline.classList.contains("active")) {
+            timeline.classList.add("active");
+            
+            const items = timeline.querySelectorAll(".timeline-item");
+            items.forEach(item => {
+                const boxTop = item.getBoundingClientRect().top;
+                if (boxTop < triggerBottom) {
+                    item.classList.add("show");
+                }
+            });
+        }
+    });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+
+window.addEventListener("load", function () {
+
+    // Auto show Projects
+    const projectTimeline = document.getElementById("projectSection");
+    projectTimeline.classList.add("active");
+
+    revealOnScroll();
+});
+</script>
 </body>
 </html>
