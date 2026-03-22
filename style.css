@@ -272,6 +272,28 @@ body{
     transform: translateX(0);
 }
 
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #00adb5;
+}
+
 /* Content Box */
 .content{
     background: #1f1a1a;
